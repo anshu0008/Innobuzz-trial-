@@ -1,7 +1,8 @@
 import React from 'react'
-import logo from './images/LOGO.png';
+import logo from './images/logo_last year_102954.png';
 import logo1 from './images/Ellipse.png'
 import classes from "./Footer.module.css";
+
 const Footer = () => {
   return (
     <div>
@@ -17,9 +18,9 @@ const Footer = () => {
             <li>About</li>
             <li>Details</li>
             </ul>
-            <img src={logo} />
+            <img className={classes.lg} src={logo} />
             <ul>
-              <li>Help Desk</li>
+              <li className={classes.hlpd}>Help Desk</li>
               <li>Blog</li>
               <li>Resources</li>
             </ul>

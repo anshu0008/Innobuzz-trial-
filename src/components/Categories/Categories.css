@@ -10,6 +10,7 @@
 body {
     padding-bottom: 50px;
     background-color: #115173;
+    height: 100vh;
 }
 .heading{
     font-size: 35px;
