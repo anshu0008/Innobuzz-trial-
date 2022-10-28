@@ -1,17 +1,26 @@
+
+
 *{
 	margin:0px;
 	padding:0px;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 	
+	
 }
+body{
+	height: 100vh;
+	background-color:#022C43 ;
+}
+
 .hd1{
 	color: #FFD700;
+	font-family: 'Trispace', sans-serif;
 }
 .section{
 	width: 100%;
 	min-height: 100vh;
-	background-color:#115173;
+	background-color:#022C43 ;
     padding-top: 40px;
 }
 .container{

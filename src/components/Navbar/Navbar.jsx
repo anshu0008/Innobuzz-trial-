@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "./Navbar.module.css";
-import Logo1 from "./images/LOGO.png";
+import Logo1 from "./images/logo_last year_102954.png";
 const Navbar = () => {
   return (
     <div className={classes.navbar}>
-      <img src={Logo1} className="img1" />
+      <img src={Logo1} className={classes.img1} />
       <ul className="ulNav">
         <li className="li">
           <h5>

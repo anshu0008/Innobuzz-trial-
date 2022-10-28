@@ -76,3 +76,8 @@
     color: white;
     letter-spacing: 0.05rem;
 }
+.lg{
+  height: 20vh;
+  width: 28vw;
+  margin-right: 3.5vw;
+}
