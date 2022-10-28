@@ -21,7 +21,7 @@ function App() {
               <Home />
         <About />
               <Categories />
-              <Contactus/>
+              
               <Footer />
              </>
             
@@ -33,6 +33,15 @@ function App() {
             <>
               <Navbar />
               <Register />
+            </>
+          }
+        />
+        <Route
+          path="/contactus"
+          element={
+            <>
+              <Navbar />
+              <Contactus/>
             </>
           }
         />

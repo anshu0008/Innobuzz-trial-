@@ -7,8 +7,9 @@ const Footer = () => {
     <div>
     <div className={classes.footer}>
         <h1>Become a CA</h1>
-        <button>Register</button>
-        <button>Contact Us</button>
+        <a href='http://localhost:3001/register' className={classes.btn}>Register</a>
+         <a href='http://localhost:3000/contactus'  className={classes.btn}>Contact Us</a>
+        {/*<button className={classes.btn}>Contact Us</button>*/}
     </div>
     <div className={classes.footer1}>
         <div className={classes.footerpart1}>
