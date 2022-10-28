@@ -1,0 +1,63 @@
+
+   /*Navigation Bar*/
+   #navcat{
+       display: flex;
+       align-items: center;
+       position: relative;
+       top: 0;
+   }
+   
+   
+   
+   
+   /*Naviagation bar:Logo and image*/
+   #logo{
+       margin:.2rem .8rem;    
+       background-color: #022C43;
+   }
+   img[src='https://innobuzz.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F7c1abddd4cd6498da18ae1df05d95a46%2Fassets%2Fcover.jpg&w=1024&q=100']{
+       width: 70px;
+       height: 70px;
+       border-radius: 100%;
+       margin:3px 15px;
+       justify-content: center;
+       align-items: center;
+       margin-left: auto;
+   }
+   .navcat{
+       display: flex;
+       background-color: #022C43;
+       align-items: center;
+   }
+   ul{
+       margin:18px;
+       color: #FFD700;
+   }
+   .navcat ul li{
+       list-style: none;
+       font-size: 1.8rem;
+       font-family: 'Trispace', sans-serif;
+       background-color: #022C43;
+   }
+   .prob h2{
+       color: #FFD700;
+       text-align: center;
+       font-size: 2rem;
+       font-family:'Inconsolata', monospace;
+       background-color: #115173;
+       padding: .5rem 0;
+   }
+   .prob h4{
+       font-size: 1.7rem;
+       color: #FFD700;
+       padding-top:30px;
+       padding-left:10px;
+       font-family:  'Fuzzy Bubbles', cursive;
+   }
+   .pro{
+       /* padding: 1rem; */
+       z-index: 9999;
+       /* background-color: #FFD700; */
+   
+   }
+   

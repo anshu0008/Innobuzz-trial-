@@ -1,0 +1,161 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	
+}
+.hd1{
+	color: #FFD700;
+}
+.section{
+	width: 100%;
+	min-height: 100vh;
+	background-color:#115173;
+    padding-top: 40px;
+}
+.container{
+	width: 85%;
+	display: block;
+	margin:auto;
+	padding-top: 130px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+    margin-left: 0px;
+   
+}
+.image-section{
+	float: right;
+	width: 45%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+    color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 45px;
+    margin-left: 0px;
+	transform: scale(1,1);
+	
+}
+.content-section .content h2{
+	margin-top: 5px;
+	color:#FFD700;
+	font-size: 21px;
+}
+.content-section .content p{
+	margin-top: 25px;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+    color: #FFFFFF;
+    width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.content-section .content .button{
+	margin-top: 100px;
+    margin-left: 0px;
+	box-shadow: #FFFFFF;
+	
+}
+.content-section .content .button a{
+	background-color: #FFD700;
+	color: #FFFFFF;
+	padding:12px 40px;
+	text-decoration: none;
+	font-size: 25px;
+	letter-spacing: .25px;
+    border-radius: 30px;
+	}
+.content-section .content .button a:hover{
+	background-color: #FFFFFF;
+	color:#131313;
+}
+.content-section .social{
+	margin: 40px 40px;
+}
+.content-section .social i{
+	color:#115173;
+	font-size: 30px;
+	padding:0px 10px;
+}
+.content-section .social i:hover{
+	color:#FFD700;
+}
+@media screen and (max-width:1200px){
+	
+
+	.img{
+		display: none;
+	}
+}
+@media screen and (max-width:600px){
+	.hd1{
+		font-size: 85px;
+		
+	}
+	.content-section .content h2{
+					
+		font-size: 18px;
+		
+	}
+	.content-section .content p{
+		font-size: 15px;
+		width: 450px;	
+		}
+
+}
+@media screen and (max-width:540px){
+	.hd1{
+		font-size: 75px;
+		
+	}
+	.content-section .content h2{
+					
+		font-size: 16px;
+		
+	}
+	.content-section .content p{
+		font-size: 15px;
+		width: 400px;	
+		}
+
+}
+@media screen and (max-width:480px){
+	.hd1{
+		font-size: 70px;
+		
+	}
+	.content-section .content h2{
+					
+		font-size: 15px;
+		
+	}
+	.content-section .content p{
+		font-size: 15px;
+		width: 350px;	
+		}
+
+}
+@media screen and (max-width:430px){
+	.hd1{
+		font-size: 55px;
+		
+	}
+	.content-section .content h2{
+					
+		font-size: 12px;
+		
+	}
+	.content-section .content p{
+		font-size: 15px;
+		width: 280px;	
+		}
+
+}

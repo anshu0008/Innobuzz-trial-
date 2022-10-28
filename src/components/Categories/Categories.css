@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.test{
+    background-color: #022C43 #053F5E #115173 #FFD700 #FFFFFF;
+}
+body {
+    padding-bottom: 50px;
+    background-color: #115173;
+}
+.heading{
+    font-size: 35px;
+    color: white;
+}
+.main{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color:#115173 ;
+    width: 100%;
+   align-items: center;
+   row-gap: 4rem;
+  
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2.5rem;
+   
+}
+.card1{
+    width: 450px;
+    height: 200px;
+    padding-right: 40px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    background-color: #022C43 ;  
+}
+.grn{
+    color: #FFD700;
+    font-weight: 500;
+}
+.cardHeading{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFD700;
+}
+.card1p{
+    margin-top: 7px;
+    font-size: 15px;
+    color: white;
+}
+@media screen and (max-width:1024px){
+    .cards{
+        gap: 2rem;
+    }
+    .card1{
+        width: 430px;
+        padding-right: 30px;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    }
+}
+@media screen and (max-width:959px){
+    .cards{
+        gap: 1.5rem;
+    }
+}
+@media screen and (max-width:929px){
+    .cards{
+        gap: 1.3rem;
+    }
+    .card1{
+        width: 400px;
+        height: 180px;
+        padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    }
+    .cardHeading{
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .card1p{
+        margin-top: 7px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:844px){
+    .card1{
+        width: 365px;
+        height: 180px;
+        padding-right: 30px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width:844px){
+    .cards{
+        gap: 1rem;
+    }
+}
+@media screen and (max-width:784px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    .card1{
+        width: 500px;
+        height: 190px;
+        padding-right: 40px;
+        padding-top: 50px;
+        padding-bottom: 45px;
+        padding-left: 25px;
+           
+    }
+}
+@media screen and (max-width:570px){
+    .card1{
+        width: 470px;
+        height: 190px;
+        padding-right: 40px;
+        padding-top: 50px;
+        padding-bottom: 45px;
+        padding-left: 25px;
+           
+    }
+    .heading{
+        font-size: 30px;
+        color: white;
+    }
+}
+@media screen and (max-width:531px){
+    .card1{
+        width: 430px;
+        height: 180px;
+        padding-right: 40px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 25px;         
+    }
+    .cardHeading{
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .card1p{
+        margin-top: 7px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:473px){
+    .card1{
+        width: 380px;
+        height: 180px;
+        padding-right: 40px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 25px;         
+    }
+    .heading{
+        font-size: 25px;
+        color: white;
+    }
+}
+@media screen and (max-width:438px){
+    .card1{
+        width: 330px;
+        height: 180px;
+        padding-right: 30px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-left: 25px;         
+    }
+    .heading{
+        font-size: 25px;
+        color: white;
+    }
+}
+@media screen and (max-width:391px){
+    .card1{
+        width: 300px;
+        height: 180px;
+        padding-right: 25px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-left: 20px;         
+    }
+    .heading{
+        font-size: 22px;
+        color: white;
+    }
+}
