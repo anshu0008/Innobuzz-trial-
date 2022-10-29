@@ -1,28 +1,49 @@
-@font-face {
-    font-family: 'Product Sans-Bold';
-    src: url("https://fonts.animapp.com/ProductSans-Bold")format("truetype");
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Poppins&family=Quicksand:wght@300;400&family=Roboto&family=Source+Code+Pro:ital,wght@0,400;1,300&family=Trispace&display=swap'); 
+
+.whole{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.hdng{
+    font-size: 35px;
+    color: white;
+
+    margin-bottom: 50px;
+    margin-left: 630px;
+    /* margin-right: 100px; */
+}
+.grn{
+    color: #FFD700;
+    font-weight: 500;
 }
 .details-view{
-    /* background-color: rgba(255,255,255,1); */
+    background-color: #022C43;
     border: 1px none;
     border-radius: 10px;
     box-shadow: 4px 4px 10px #06283d33;
    height: 618px;
    width: 910px;
    -ms-flex: 70%; 
-  flex: 70%;
+  flex: 40%;
 }
 
 .rectangle-5{
-    background-color: white;
-    color: black;
+    /* background-color: rgba(5,63,94,0.3); */
     border: 1px none;
     border-radius: 10px;
     height: 145px;
     left: 0;
     position: absolute;
-    top: 80px;
+    top: 40px;
     width: 856px;
+    margin-left: 15px;
+}
+.rectangle-5:hover{
+   background-color: rgba(5,63,94,0.3);
+   border: 1px none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #06283d33;
 }
 
 .rectangle-5.rectangle-6{
@@ -62,7 +83,8 @@
     line-height: normal;
     position: absolute;
     top: 54px;
-    width: 167px;
+    width: 277px;
+    margin-left: 10px;
 }
 
 .this-will-be-a-submit
@@ -74,6 +96,16 @@
     text-align: justify;
     top: 85px;
     width: 801px;
+}
+.thirdRound{
+    left: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: justify;
+    top: 10px;
+    width: 167px;
+    margin-left: 10px;
 }
 
 .overlap-group {
@@ -97,16 +129,10 @@
     position: absolute;
     top: 20px;
     width: 167px;
+    margin-left: 10px;
 }
 
-.thirdRound{
-    left: 17px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: -10px;
-    width: 167px;
-}
+
 
 .the-top-10-selected{
     left: 17px;
@@ -124,15 +150,15 @@
     line-height: normal;
     position: absolute;
     text-align: justify;
-    top: -5px;
+    top: 35px;
     width: 801px;
 }
 
 
 
 .productsans-bold-daintree-22px{
-    color: rgb(18, 19, 20);
-    font-family: "Trebuchet MS", Helvetica, sans-serif;;
+    color: #FFD700;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: 700;
     font-style: normal;
@@ -140,47 +166,47 @@
 
 .productsans-bold-boston-blue-18px
 {
-    color: rgb(232, 249, 252);
-    font-family: "Trebuchet MS", Helvetica, sans-serif;;
+    color: #FFD700;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-weight: 700;
-    font-style: normal;
+    font-weight: 200;
+    /* font-style: normal; */
+    /* display: none; */
 }
 
 .productsans-bold-shark-16px
 {
-    color: rgba(37,38,45,1);
-    font-family: "Trebuchet MS", Helvetica, sans-serif;;
+    color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    font-style: normal;
+    /* font-style: normal; */
+    margin-left: 10px;
 }
 .fakeimg{
     height: 40px;
-    /* background-color: #aaa; */
+    background-color: #aaa;
     width: 100%;
     padding: 10px;
 }
 .fakeimg1{
     height: 200px;
-    /* background-color: #aaa; */
+    background-color: #aaa;
     width: 100%;
     padding: 10px;
 }
 
 .side{
-    /* background-color: rgba(255,255,255,1); */
+    background-color: #022C43;
     border: 1px none;
     border-radius: 10px;
     box-shadow: 4px 4px 10px #06283d33;
     margin-left: 10px;
    height: 618px;
-   width: 380px;
+   width: 180px;
 }
 
-*{
-    box-sizing: border-box;
-}
+
 
 .row {  
     display: -ms-flexbox; 

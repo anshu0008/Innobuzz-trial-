@@ -1,7 +1,11 @@
 import React from 'react'
-import "./about.css"
+import './About.css'
+
+
 const About=()=>{
  return(
+  <div className='whole'>
+     <div className="hdng"><span className='grn'>ABOUT US</span></div>
   <div className='row'>
   <div className='details-view'>
   <div className='stages-and-timelines'>
@@ -12,7 +16,7 @@ const About=()=>{
       <div className='firstRound productsans-bold-boston-blue-18px'>
         <span className='productsans-bold-boston-blue-18px'>1st Round</span>
       </div>
-      <Rectangle5 className='rectangle-6' />
+      <Rectangle5 />
       <p className='this-will-be-a-submit productsans-bold-shark-16px'>
         <span className='productsans-bold-shark-16px'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -63,6 +67,7 @@ const About=()=>{
     <h3 className='productsans-bold-daintree-22px'>REWARDS</h3>
     <div className="fakeimg" >Image</div><br />
     <div className="fakeimg" >Image</div>
+  </div>
   </div>
   </div>
 
