@@ -19,8 +19,14 @@ function App() {
            
               <Navbar/>
               <Home />
+
               <About />
               <Categories />  
+
+        <About />
+              <Categories />
+              <Contactus/>
+
               <Footer />
              </>
             
